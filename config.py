@@ -4,6 +4,11 @@ class VISIT_TYPE( object ):
     KONSULTACJA = "Konsultacja"
     BADANIE_DIAGNOSTYCZNE = "Badanie diagnostyczne"
 
+SETTINGS = {
+                'phantomjs' : 'C:/Users/Piotr/Programy/phantomjs-2.0.0-windows/bin/phantomjs.exe',
+                'chrome' : 'C:/Users/Piotr/Programy/chromedriver.exe'
+            }
+
 USERS = {
           'MEDICOVER_LOGIN_NR' : {  # LOGIN
                        'pass' : 'MEDICOVER_PASSWORD',  # PASSWORD

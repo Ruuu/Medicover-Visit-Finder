@@ -3,3 +3,6 @@
 *.prefs
 config_my.py
 config_default.py
+*.pickle
+*.pyc
+*.log

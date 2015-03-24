@@ -20,15 +20,16 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 
+from config import SETTINGS
 from config import USERS
 from config import VISIT_TYPE
 
 
 class Medicover( object ):
     # Phantomjs executable file path
-    PHANTOMJS = 'C:/Users/Piotr/Programy/phantomjs-2.0.0-windows/bin/phantomjs.exe'
+    PHANTOMJS = SETTINGS[ 'phantomjs' ]
     # Chrome executable file path
-    CHROME = 'C:/Users/Piotr/Programy/chromedriver.exe'
+    CHROME = SETTINGS[ 'chrome' ]
     # Database name postfix and extension
     DB_NAME = "db.pickle"
 
